@@ -1,5 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+
+import { Component, OnInit} from '@angular/core';
+
+import { saveAs, encodeBase64 } from '@progress/kendo-file-saver';
+import * as JSZip from 'jszip';
+
+// import JSZip = require('jszip');
 
 @Component({
   selector: 'app-home',
@@ -7,13 +12,13 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  dato:any ='Alejandro';
-  constructor(private router:Router) { }
+  constructor(){
+
+  }
 
   ngOnInit(): void {
-  }
-  sendID(id:any){
-    this.router.navigate(['next']);
-  }
+
+
 
 }
+  }
