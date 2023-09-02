@@ -1,0 +1,29 @@
+.example-container {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-sidenav {
+  padding: 35px;
+}
+
+.mat-drawer-container{
+  background-color: rgb(243, 243, 243);
+}
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+.welcome{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 10rem;
+}
